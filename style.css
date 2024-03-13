@@ -9,16 +9,20 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  /* background-color: #5c565699; */
   
+  background-color: #45424a;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23cecad5' fill-opacity='0.25' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  color: white;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-p {
-  color: rgb(85, 85, 85);
-}
+/* p {
+  color: ;
+} */
 
 /* TRANSITION */
 
@@ -182,6 +186,10 @@ section {
   text-align: center;
 }
 
+.details-container p {
+  color: black;
+}
+
 .section__text p {
   font-weight: 600;
 }
@@ -342,6 +350,7 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+  color: black;
 }
 
 article {
@@ -368,17 +377,40 @@ article .icon {
 
 .color-container1 button {
   background-color: red;
-  
+  color: white;
+  border-color: white;
+}
+
+.color-container1 p {
+  color: white;
 }
 
 .color-container2 {
-  border-color: black;
+  border-color: #C6011F;
+  background-color: white;
+}
+
+.color-container2 button {
   background-color: #C6011F;
+  color: white;
 }
 
 .color-container3 {
-  border-color: black;
-  background-color: white;
+  border-color: white;
+  background-color: #041c44;
+}
+
+.color-container3 p {
+  color: white;
+}
+
+.color-container3 button {
+  border-color: #56aeff;
+  color: white;
+}
+
+.about-containers3 button:hover {
+  color: #56aeff;
 }
 
 .project-img {
@@ -390,11 +422,6 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: black;
-}
-
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
 }
 
 .projects-p {
