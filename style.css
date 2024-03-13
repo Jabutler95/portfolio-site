@@ -51,7 +51,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -60,7 +60,7 @@ a:hover {
   color: grey;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: white;
 }
 
 .logo {
@@ -383,6 +383,7 @@ article .icon {
 
 .color-container1 p {
   color: white;
+  font-family: 'DotGothic16', sans-serif;
 }
 
 .color-container2 {
@@ -422,6 +423,17 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: black;
+}
+
+.project-title1 {
+  margin: 1rem;
+  font-family: 'Silkscreen', sans-serif;
+  color: red;
+}
+
+.project-title3 {
+  margin: 1rem;
+  color: white;
 }
 
 .projects-p {
