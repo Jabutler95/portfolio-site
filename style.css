@@ -62,8 +62,9 @@ a {
 
 a:hover {
   color: grey;
-  text-decoration: underline;
+  text-decoration: underline overline;
   text-underline-offset: 1rem;
+  text-overline-offset: 1rem;
   text-decoration-color: white;
 }
 
