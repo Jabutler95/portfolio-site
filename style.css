@@ -238,37 +238,22 @@ section {
   border-radius: 2rem;
 }
 
-.btn-color-1,
-.btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+.greeting-btns {
+  background-color: whitesmoke;
+  color: black;
 }
 
-.btn-color-1:hover,
-.btn-color-2:hover {
+.greeting-btns:hover {
   cursor: pointer;
-}
-
-.btn-color-1,
-.btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background-color: black;
   color: white;
-}
-
-.btn-color-1:hover {
-  background: rgb(0, 0, 0);
-}
-
-.btn-color-2 {
-  background: none;
-}
-
-.btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
 }
 
 .btn-container {
   gap: 1rem;
 }
+
+
 
 /* ABOUT SECTION */
 
@@ -312,6 +297,11 @@ section {
   text-align: center;
 }
 
+.details-container h3 {
+  color: black;
+  text-decoration: underline;
+}
+
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -330,7 +320,6 @@ section {
 }
 
 .experience-sub-title {
-  /* color: rgb(85, 85, 85); */
   color: white;
   font-weight: 600;
   font-size: 1.75rem;
@@ -472,12 +461,10 @@ article .icon {
 }
 
 .contact-icon {
-  cursor: default;
+  cursor: pointer;
 }
 
-.email-icon {
-  height: 2.5rem;
-}
+
 
 #linkedIn:hover {
   cursor: pointer;
