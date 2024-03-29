@@ -31,6 +31,10 @@ a,
   transition: all 300ms ease;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 /* DESKTOP NAV */
 
 nav,
@@ -285,6 +289,8 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+  height: 4rem;
+  cursor: pointer;
 }
 
 .details-container {
@@ -349,6 +355,16 @@ article {
   gap: 0.5rem;
 }
 
+.tech-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
 article .icon {
   cursor: default;
 }
@@ -370,6 +386,10 @@ article .icon {
   border-color: white;
 }
 
+.color-container1 button:hover {
+  background-color: #301934;;
+}
+
 .color-container1 p {
   color: white;
   font-family: 'DotGothic16', sans-serif;
@@ -385,6 +405,11 @@ article .icon {
   color: white;
 }
 
+.color-container2 button:hover {
+  background-color: white;
+  color: #C6011F;
+}
+
 .color-container3 {
   border-color: white;
   background-color: #041c44;
@@ -395,13 +420,18 @@ article .icon {
 }
 
 .color-container3 button {
+  background-color: #041c44;
   border-color: #56aeff;
   color: white;
 }
 
-.about-containers3 button:hover {
-  color: #56aeff;
+.color-container3 button:hover {
+  background-color: #56aeff;
 }
+
+/* .about-containers3 button:hover {
+  color: #56aeff;
+} */
 
 .project-img {
   border-radius: 2rem;
